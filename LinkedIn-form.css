@@ -1,5 +1,26 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+background-color: rgb(216, 215, 215);
+}
+
+.navigation-bar{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    padding-bottom: 20px;
+
+}
+
+.navigation-bar .col-md-10{
+    margin: 0rem 0rem 0.10rem 0rem ;
+    background-color: white;
+    max-width: 1140px;
+    padding: 5px 0px 10px;
+    position: absolute;
+    left: 132px;
+}
+
 .navbar{
-    padding: 0.10rem 8.25rem 0.10rem 8.25rem;
     height:60px;
 }
 
@@ -8,12 +29,35 @@
     height: 60px;
 }
 
+.nav-link{
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:rgb(2, 96, 184);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active >.nav-link{
+    color:rgb(2, 96, 184);
+    font-weight: bold;
+}
+
+.dropdown-item{
+    color: rgb(2, 96, 184);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .container{
     max-width: 960;
+    background-color: white;
     border: 1px solid rgba(0,0,0,.075);
     padding: 0px 0px;
     border-top: none;
     box-shadow: .125rem 0rem .25rem 0rem rgba(0,0,0,.075);
+    position: relative;
+    top: 60px;
 }
 
 .background-box{
