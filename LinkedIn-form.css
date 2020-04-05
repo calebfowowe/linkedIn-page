@@ -1,6 +1,10 @@
 
 .container{
-    max-width: 1140;
+    max-width: 960;
+    border: 1px solid rgba(0,0,0,.075);
+    padding: 0px 0px;
+    border-top: none;
+    box-shadow: .125rem 0rem .25rem 0rem rgba(0,0,0,.075);
 
 }
 
