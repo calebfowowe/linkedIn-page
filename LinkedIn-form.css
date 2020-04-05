@@ -8,13 +8,13 @@ background-color: rgb(216, 215, 215);
     position: fixed;
     z-index: 9;
     padding-bottom: 20px;
-
 }
 
 .navigation-bar .col-md-10{
     margin: 0rem 0rem 0.10rem 0rem ;
     background-color: white;
     max-width: 1140px;
+    height: 60px;
     padding: 5px 0px 10px;
     position: absolute;
     left: 132px;
@@ -43,8 +43,13 @@ background-color: rgb(216, 215, 215);
     font-weight: bold;
 }
 
+.dropdown-menu{
+    border-radius: 0.00rem;
+}
+
 .dropdown-item{
     color: rgb(2, 96, 184);
+    padding: .45rem 1.25rem;
     font-size: 20px;
     font-weight: bold;
 }
