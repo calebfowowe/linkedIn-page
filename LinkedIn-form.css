@@ -111,6 +111,10 @@ background-color: rgb(216, 215, 215);
     margin: 10px 0px 45px 0px;
 }
 
+#form-control-birth-day{
+  padding-bottom: 13px;
+}
+
 .Headline{
     padding-bottom: 30px;
 }
